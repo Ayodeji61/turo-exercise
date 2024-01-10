@@ -1,0 +1,11 @@
+.git
+docker.sh
+Dockerfile
+config
+.vscode
+.terraform/
+*.tfstate*
+*.tfplan
+.terraform.lock.hcl
+app/node_modules
+.env

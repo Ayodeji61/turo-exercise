@@ -1,0 +1,13 @@
+.vscode
+.terraform/
+*.tfstate*
+*.tfplan
+.terraform.lock.hcl
+app/node_modules
+*.tfstate
+*.tfstate.backup
+terraform.tfstate
+*.tfstate
+terraform.tfstate
+kube
+.env
