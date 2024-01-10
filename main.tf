@@ -37,7 +37,7 @@ resource "kubernetes_config_map" "app_env" {
 
   data = {
     ".env" = <<-EOT
-    WELCOME_MESSAGE = "Hello World - TURO - ${data.external.app_version.result.version}"
+    WELCOME_MESSAGE = "HAPPY CODING CHALLENGE - TURO - ${data.external.app_version.result.version}"
     EOT
   }
 }
