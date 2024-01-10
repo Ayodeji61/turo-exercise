@@ -9,9 +9,7 @@ const exposedEnv = {
   welcomeMessage: process.env.WELCOME_MESSAGE || "Default welcome message",
 };
 
-app.get("/page1.html", (req, res) => {
-  res.redirect("/page2.html");
-});
+
 
 app.use(express.static("public"));
 
